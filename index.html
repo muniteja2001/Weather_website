@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> weather  app for different cities </title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- linking the font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search">
+                <div class="search-box">
+                    <input type="text"  class="input-box " placeholder="Enter your Location">
+                    
+                    <button class="fa-solid fa-magnifying-glass" id="search-btn"> </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="weather-body"  style="display: block;">
+            <img src="./clouds.jpg" alt="weather image"  class="weather-image">
+
+            <div class="weather-box">
+                <p class="temperature">0 <sup>°C</sup></p>
+                <p class="description">Light Rain</p>
+            </div>
+
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="humidity">43%</span>
+                        <p>Humidity</p>
+                    </div>
+
+                    
+
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+    
+                    <div class="text">
+                        <span id="wind-speed">12Km/H</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+
+                <div class="sea">
+                    <i class="fa-solid fa-globe"></i>
+
+                    <div class="text">
+                        <span id="sea-level">1013</span>
+                        <p>Sea-Level</p>
+                    </div>
+
+                </div>
+
+                <div class="pressure">
+                    <i class="fa-solid fa-temperature-arrow-up"></i>
+
+                    <div class="text">
+                        <span id="pressure">1013F/A</span>
+                        <p>Pressure</p>
+                    </div>
+
+                </div>
+
+                <div class="sunrise">
+                    <i class="fa-solid fa-sun"></i>
+
+                    <div class="text">
+                        <span id="sunrise">1728391676</span>
+                        <p>Sunrise</p>
+
+                    </div>
+
+                </div>
+
+                <div class="sunset">
+                   
+                    <i class="fa-regular fa-sun"></i>
+
+                    <div class="text">
+
+                        <span id="sunset">1728391676</span>
+                        <p>Sunset</p>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+   <script  src="script.js">
+ 
+   </script> 
+</body>
+</html>

@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: none;
+    font-family: serif;
+
+}
+body{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+}
+.container{
+    width: 600px;
+    height: min-content;
+    background-color: wheat;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.weather-body img{
+    width: 70%;
+    position: relative;
+    left: 80px;
+    height: 200px;
+    
+
+
+}
+
+.search-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.search-box input{
+    width: 85%;
+    font-size:20px ;
+    text-transform: capitalize;
+    color: black;
+    background-color: rgb(162, 195, 221);
+    border-radius: 14px;
+    padding: 12px 16px;
+
+}
+
+.search-box input::placeholder{
+    color: black;
+}
+.search-box button{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.search-box button:hover{
+    color: white;
+    background-color: black;
+}
+
+.weather-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.weather-box{
+
+    text-align: center;
+
+}
+
+.weather-box .temperature{
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.weather-box .temperature sup{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.weather-box .description{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.weather-details{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    margin-top: 30px;
+    
+    
+}
+.humidity, .wind{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.humidity{
+    margin-left: 10px;
+    padding: 10px;
+}
+.wind{
+    margin-right: 21px;
+    padding: 10px;
+}
+
+.weather-details{
+    font-size: 20px;
+    
+}
+
+.weather-details .text{
+    margin-left: 10px;
+}
+
+.weather-details .pressure{
+    margin-right: 10px;
+    display: flex;
+    padding: 10px;
+}
+ .sea{
+    display: flex;
+    margin-left: 10px;
+    padding: 10px;
+}
+ .sunset{
+    margin-right: 10px;
+    display: flex;
+    padding: 10px;
+}
+ .sunrise{
+    margin-left: 10px;
+    display: flex;
+    padding: 10px;
+}
+
